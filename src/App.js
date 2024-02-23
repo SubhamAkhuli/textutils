@@ -6,7 +6,7 @@ import About from './components/About';
 function App() {
   return (
     <BrowserRouter>
-      <Navbar title="Textutils" about="About" />
+      <Navbar title="TextUtils" about="About" />
       <Routes>
         <Route path="/" element={<>
           <Body heading="Enter the text below" />
